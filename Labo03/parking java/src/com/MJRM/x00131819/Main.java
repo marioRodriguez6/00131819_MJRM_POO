@@ -4,11 +4,11 @@ import javax.swing.*;
 import java.util.ArrayList;
 
 public class Main {
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         ArrayList<Automovil> autoticket = new ArrayList<>();
 
-       int opc1;
-       double monto = 0;
+        int opc1;
+        double monto = 0;
 
         do {
             opc1 = Integer.parseInt(JOptionPane.showInputDialog(null, menu()));
@@ -59,7 +59,7 @@ public class Main {
                     }
                     autoticket.removeIf(s->s.getPlaca().equals(placa2));
                     if(c){
-                    JOptionPane.showMessageDialog(null, "no encontramos el ticket en nuestra base de datos.");
+                        JOptionPane.showMessageDialog(null, "no encontramos el ticket en nuestra base de datos.");
                     }
                     break;
                 case 3:

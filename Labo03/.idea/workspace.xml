@@ -1,30 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b112e51-7ca8-407f-b79e-5eb488c8d7d7" name="Default Changelist" comment="" />
+    <list default="true" id="7ab2d693-9986-4832-ad5e-cd78e24808fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Labo03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parking java/parking.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parking java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking java/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parking java/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parking java/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking java/Labo03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking java/out/production/Labo03/META-INF/Labo03.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking java/out/production/Labo03/com/MJRM/x00131819/Automovil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking java/out/production/Labo03/com/MJRM/x00131819/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking java/out/production/Labo03/com/MJRM/x00131819/Moneda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking java/out/production/Labo03/com/MJRM/x00131819/Registro_tiempo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking java/out/production/Labo03/com/MJRM/x00131819/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking java/src/com/MJRM/x00131819/Automovil.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking java/src/com/MJRM/x00131819/Automovil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking java/src/com/MJRM/x00131819/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking java/src/com/MJRM/x00131819/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking java/src/com/MJRM/x00131819/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/parking java/src/com/MJRM/x00131819/Ticket.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo03\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectId" id="1ZgC4Maqms1mquQ5SgFLTSwIhuI" />
+  <component name="ProjectId" id="1ZjxNDG9ebFW68pb2DJyOGIIzXh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,78 +35,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/parking java" />
-  </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.MJRM.x00131819.Main" />
-      <module name="Labo03" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0b112e51-7ca8-407f-b79e-5eb488c8d7d7" name="Default Changelist" comment="" />
-      <created>1585251158035</created>
+      <changelist id="7ab2d693-9986-4832-ad5e-cd78e24808fc" name="Default Changelist" comment="" />
+      <created>1585366263046</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585251158035</updated>
+      <updated>1585366263046</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="605" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1585352059721">
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1585366280938">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1585352059721" />
-    <state x="596" y="315" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585251307592">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="596" y="315" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1585251307592" />
-    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585350812870">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1585350812870" />
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1585360631447">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1585360631447" />
-    <state width="1557" height="263" key="GridCell.Tab.0.bottom" timestamp="1585360659868">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="263" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585360659868" />
-    <state width="1557" height="263" key="GridCell.Tab.0.center" timestamp="1585360659868">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="263" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585360659868" />
-    <state width="1557" height="263" key="GridCell.Tab.0.left" timestamp="1585360659867">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="263" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585360659867" />
-    <state width="1557" height="263" key="GridCell.Tab.0.right" timestamp="1585360659868">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="263" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585360659868" />
-    <state x="480" y="152" key="RollbackChangesDialog" timestamp="1585352035416">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="480" y="152" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1585352035416" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1585350896985">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1585350896985" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585366280938" />
   </component>
 </project>

@@ -1,6 +1,7 @@
 package com.MJRM.x00131819;
 
 public class Automovil {
+
     private String placa;
     private Ticket elTicket;
 
@@ -17,4 +18,3 @@ public class Automovil {
         return elTicket;
     }
 }
-
