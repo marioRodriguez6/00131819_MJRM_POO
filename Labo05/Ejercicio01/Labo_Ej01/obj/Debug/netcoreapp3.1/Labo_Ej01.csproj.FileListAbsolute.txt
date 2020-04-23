@@ -1,0 +1,13 @@
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Ejercicio01\Labo_Ej01\bin\Debug\netcoreapp3.1\Labo_Ej01.exe
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Ejercicio01\Labo_Ej01\bin\Debug\netcoreapp3.1\Labo_Ej01.deps.json
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Ejercicio01\Labo_Ej01\bin\Debug\netcoreapp3.1\Labo_Ej01.runtimeconfig.json
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Ejercicio01\Labo_Ej01\bin\Debug\netcoreapp3.1\Labo_Ej01.runtimeconfig.dev.json
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Ejercicio01\Labo_Ej01\bin\Debug\netcoreapp3.1\Labo_Ej01.dll
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Ejercicio01\Labo_Ej01\bin\Debug\netcoreapp3.1\Labo_Ej01.pdb
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Ejercicio01\Labo_Ej01\obj\Debug\netcoreapp3.1\Labo_Ej01.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Ejercicio01\Labo_Ej01\obj\Debug\netcoreapp3.1\Labo_Ej01.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Ejercicio01\Labo_Ej01\obj\Debug\netcoreapp3.1\Labo_Ej01.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Ejercicio01\Labo_Ej01\obj\Debug\netcoreapp3.1\Labo_Ej01.AssemblyInfo.cs
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Ejercicio01\Labo_Ej01\obj\Debug\netcoreapp3.1\Labo_Ej01.dll
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Ejercicio01\Labo_Ej01\obj\Debug\netcoreapp3.1\Labo_Ej01.pdb
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Ejercicio01\Labo_Ej01\obj\Debug\netcoreapp3.1\Labo_Ej01.genruntimeconfig.cache
