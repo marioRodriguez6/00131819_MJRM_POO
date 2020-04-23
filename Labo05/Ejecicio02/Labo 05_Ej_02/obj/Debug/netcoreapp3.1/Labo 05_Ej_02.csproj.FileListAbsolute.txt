@@ -1,0 +1,13 @@
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo05\Ejecicio02\Labo 05_Ej_02\obj\Debug\netcoreapp3.1\Labo 05_Ej_02.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo05\Ejecicio02\Labo 05_Ej_02\obj\Debug\netcoreapp3.1\Labo 05_Ej_02.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo05\Ejecicio02\Labo 05_Ej_02\obj\Debug\netcoreapp3.1\Labo 05_Ej_02.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo05\Ejecicio02\Labo 05_Ej_02\obj\Debug\netcoreapp3.1\Labo 05_Ej_02.AssemblyInfo.cs
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo05\Ejecicio02\Labo 05_Ej_02\bin\Debug\netcoreapp3.1\Labo 05_Ej_02.exe
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo05\Ejecicio02\Labo 05_Ej_02\bin\Debug\netcoreapp3.1\Labo 05_Ej_02.deps.json
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo05\Ejecicio02\Labo 05_Ej_02\bin\Debug\netcoreapp3.1\Labo 05_Ej_02.runtimeconfig.json
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo05\Ejecicio02\Labo 05_Ej_02\bin\Debug\netcoreapp3.1\Labo 05_Ej_02.runtimeconfig.dev.json
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo05\Ejecicio02\Labo 05_Ej_02\bin\Debug\netcoreapp3.1\Labo 05_Ej_02.dll
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo05\Ejecicio02\Labo 05_Ej_02\bin\Debug\netcoreapp3.1\Labo 05_Ej_02.pdb
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo05\Ejecicio02\Labo 05_Ej_02\obj\Debug\netcoreapp3.1\Labo 05_Ej_02.dll
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo05\Ejecicio02\Labo 05_Ej_02\obj\Debug\netcoreapp3.1\Labo 05_Ej_02.pdb
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo05\Ejecicio02\Labo 05_Ej_02\obj\Debug\netcoreapp3.1\Labo 05_Ej_02.genruntimeconfig.cache
