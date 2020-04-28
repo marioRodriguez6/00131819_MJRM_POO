@@ -1,0 +1,13 @@
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo06\Promedio\Labo06_Promedio\bin\Debug\netcoreapp3.1\Labo06_Promedio.exe
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo06\Promedio\Labo06_Promedio\bin\Debug\netcoreapp3.1\Labo06_Promedio.deps.json
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo06\Promedio\Labo06_Promedio\bin\Debug\netcoreapp3.1\Labo06_Promedio.runtimeconfig.json
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo06\Promedio\Labo06_Promedio\bin\Debug\netcoreapp3.1\Labo06_Promedio.runtimeconfig.dev.json
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo06\Promedio\Labo06_Promedio\bin\Debug\netcoreapp3.1\Labo06_Promedio.dll
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo06\Promedio\Labo06_Promedio\bin\Debug\netcoreapp3.1\Labo06_Promedio.pdb
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo06\Promedio\Labo06_Promedio\obj\Debug\netcoreapp3.1\Labo06_Promedio.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo06\Promedio\Labo06_Promedio\obj\Debug\netcoreapp3.1\Labo06_Promedio.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo06\Promedio\Labo06_Promedio\obj\Debug\netcoreapp3.1\Labo06_Promedio.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo06\Promedio\Labo06_Promedio\obj\Debug\netcoreapp3.1\Labo06_Promedio.AssemblyInfo.cs
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo06\Promedio\Labo06_Promedio\obj\Debug\netcoreapp3.1\Labo06_Promedio.dll
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo06\Promedio\Labo06_Promedio\obj\Debug\netcoreapp3.1\Labo06_Promedio.pdb
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo06\Promedio\Labo06_Promedio\obj\Debug\netcoreapp3.1\Labo06_Promedio.genruntimeconfig.cache
