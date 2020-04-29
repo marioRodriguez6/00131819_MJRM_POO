@@ -82,7 +82,7 @@ namespace Labo06_Promedio
                         break;
                     case 3:
                         
-                        Console.WriteLine(menuElimin());
+                        Console.WriteLine(MenuElimin());
                         Console.Write("digite la opcion deseada:  \n ");
                         opc2 = Convert.ToByte(Console.ReadLine());
 
@@ -113,7 +113,7 @@ namespace Labo06_Promedio
                         break;
                     case 4:
 
-                        CalcularNota.Calcular();
+                       Console.WriteLine(" \n " + "su nota final es : " + CalcularNota.Calcular(exams) + " \n "); 
                         
                         Console.Write("saliendo del menu...");
                         
@@ -135,7 +135,7 @@ namespace Labo06_Promedio
             return " 1. Agregar Parcial. \n 2. Agregar Laboratorio. \n 3. Agregar Tarea. \n  ";
         }
         
-        static String menuElimin()
+        static String MenuElimin()
         {
             return " 1. Eliminar Parcial. \n 2. Eliminar Laboratorio. \n 3. Eliminar Tarea. \n  ";
         }

@@ -17,6 +17,7 @@ namespace Labo06_Promedio
             return $"\n laboratorio/ {nameof(Name)}: {Name}, {nameof(Percentage)}: {Percentage}, {nameof(type)}: {type}";
         }
 
-        public string Name2 => Name;
+
+        public override int Percentage2 => Percentage;
     }
 }

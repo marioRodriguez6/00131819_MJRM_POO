@@ -15,6 +15,10 @@
             return $"\n Parcial/ {nameof(Name)}: {Name}, {nameof(Percentage)}: {Percentage}, {nameof(cantPreguntas)}: {cantPreguntas}";
         }
 
+        public override int CantPreguntas => cantPreguntas;
+
         public string Name2 => Name;
+
+        public override int Percentage2 => Percentage;
     }
 }
