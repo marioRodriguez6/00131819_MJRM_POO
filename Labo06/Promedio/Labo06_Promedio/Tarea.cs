@@ -12,5 +12,12 @@ namespace Labo06_Promedio
         {
             this.fechaEntrega = fechaEntrega;
         }
+
+        public override string ToString()
+        {
+            return $"\n Tarea/ {nameof(Name)}: {Name}, {nameof(Percentage)}: {Percentage}, {nameof(fechaEntrega)}: {fechaEntrega}";
+        }
+
+        public string Name2 => Name;
     }
 }

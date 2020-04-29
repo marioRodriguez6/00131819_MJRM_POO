@@ -9,5 +9,12 @@
         {
             this.cantPreguntas = cantPreguntas;
         }
+
+        public override string ToString()
+        {
+            return $"\n Parcial/ {nameof(Name)}: {Name}, {nameof(Percentage)}: {Percentage}, {nameof(cantPreguntas)}: {cantPreguntas}";
+        }
+
+        public string Name2 => Name;
     }
 }

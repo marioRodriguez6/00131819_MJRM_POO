@@ -5,11 +5,18 @@ namespace Labo06_Promedio
     public class Laboratorio : Evaluacion
     {
 
-        private String _type;
+        private String type;
 
         public Laboratorio(int percentage, string name, string type) : base(percentage, name)
         {
-            this._type = type;
+            this.type = type;
         }
+
+        public override string ToString()
+        {
+            return $"\n laboratorio/ {nameof(Name)}: {Name}, {nameof(Percentage)}: {Percentage}, {nameof(type)}: {type}";
+        }
+
+        public string Name2 => Name;
     }
 }

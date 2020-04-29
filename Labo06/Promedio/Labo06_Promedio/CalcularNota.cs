@@ -1,10 +1,12 @@
-﻿namespace Labo06_Promedio
+﻿using System.Collections.Generic;
+
+namespace Labo06_Promedio
 {
     public class CalcularNota
     {
 
-        public double Calcular(Evaluacion s)
-        {
+        public static double Calcular(List<Evaluacion> s){
+            
 
             int notaFinal = 0;
             
