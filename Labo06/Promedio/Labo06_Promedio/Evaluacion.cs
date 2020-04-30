@@ -17,11 +17,6 @@ namespace Labo06_Promedio
 
         public string Name1 => Name;
 
-        public virtual int Percentage2
-        {
-            get { throw new NotImplementedException(); }
-        }
-
         public virtual int CantPreguntas
         {
             get { throw new NotImplementedException(); }

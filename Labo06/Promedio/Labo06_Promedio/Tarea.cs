@@ -4,8 +4,9 @@ using Microsoft.VisualBasic;
 
 namespace Labo06_Promedio
 {
-    public class Tarea : Evaluacion {
-        
+    public class Tarea : Evaluacion
+    {
+
         private DateTime fechaEntrega;
 
         public Tarea(int percentage, string name, DateTime fechaEntrega) : base(percentage, name)
@@ -15,9 +16,12 @@ namespace Labo06_Promedio
 
         public override string ToString()
         {
-            return $"\n Tarea/ {nameof(Name)}: {Name}, {nameof(Percentage)}: {Percentage}, {nameof(fechaEntrega)}: {fechaEntrega}";
+            return
+                $"\n Tarea/ {nameof(Name)}: {Name}, {nameof(Percentage)}: {Percentage}, {nameof(fechaEntrega)}: {fechaEntrega}";
         }
 
         public string Name2 => Name;
+
+        public int Percentage2 => Percentage;
     }
 }

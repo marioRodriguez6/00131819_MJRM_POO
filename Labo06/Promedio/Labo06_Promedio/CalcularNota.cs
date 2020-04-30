@@ -15,31 +15,30 @@ namespace Labo06_Promedio
             {
                 if (ds is Laboratorio )
                 {
-                    Console.WriteLine("digite nota obtenida en Laboratorio: ");
+                    Console.WriteLine("digite nota obtenida en Laboratorio {0}: ", ds.Name1);
                     notaLabo = Convert.ToDouble(Console.ReadLine());
 
-                    notaFinal += (double) (notaLabo * ds.Percentage2 );
+                    // ReSharper disable once PossibleLossOfFraction
+                    notaFinal += (double) (notaLabo * ds.Percentage1 )/100  ;
 
                 }else if (ds is Parcial)
                 {
-                    Console.WriteLine("digite cuantas preguntas correctas obtuvo: ");
+                    Console.WriteLine("digite cuantas preguntas correctas obtuvo en el {0}: ",ds.Name1);
                     cantBuenas = Convert.ToDouble(Console.ReadLine());
-
-                    notaFinal += (double) ((cantBuenas / ds.CantPreguntas) * ds.Percentage1);
+                    
+                        notaFinal += (double) ((cantBuenas / ds.CantPreguntas) * ds.Percentage1/10);
 
                 }else 
                 {
-                    Console.WriteLine("digite nota obtenida en Tarea: ");
+                    Console.WriteLine("digite nota obtenida en Tarea {0} : ",ds.Name1);
                     notaTarea = Convert.ToDouble(Console.ReadLine());
 
-                    notaFinal += (double) (notaTarea * ds.Percentage1);
+                    // ReSharper disable once PossibleLossOfFraction
+                     notaFinal += (double) (notaTarea * ds.Percentage1 )/100 ;
 
                 }
             }
-            
-            return notaFinal;
+            return Math.Round(notaFinal);
         }
-
-
     }
 }

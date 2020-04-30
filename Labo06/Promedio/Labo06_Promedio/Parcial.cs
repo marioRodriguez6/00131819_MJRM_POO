@@ -19,6 +19,6 @@
 
         public string Name2 => Name;
 
-        public override int Percentage2 => Percentage;
+        public int Percentage2 => Percentage;
     }
 }
