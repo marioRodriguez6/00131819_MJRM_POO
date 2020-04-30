@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security;
 
 namespace Labo06_Promedio
 {
@@ -9,8 +10,7 @@ namespace Labo06_Promedio
         {
             var exams = new List<Evaluacion>();
 
-                int opc = 0, opc1 = 0, opc2 = 0;
-                int cantPreguntas = 0, percentage = 0;
+                int opc = 0, opc1 = 0, opc2 = 0, cantPreguntas = 0, percentage = 0;
                 String name = "", type = "", deletePar = "", deleteLab = "", deleteHmwk = "";
 
                 var usCulture = new System.Globalization.CultureInfo("en-US");
@@ -32,6 +32,16 @@ namespace Labo06_Promedio
                         switch (opc)
                         {
                             case 1:
+
+                                int totPercantage = 100;
+
+                                foreach (var DS in exams)
+                                {
+                                    totPercantage -= DS.Percentage1;
+                                    if (totPercantage <= 0)
+                                        throw new MoreThanTenException("Se paso del limite de evaluacion");
+                                }
+
                                 Console.WriteLine(MenuExams());
                                 Console.Write("digite la opcion deseada:  \n ");
                                 opc1 = Convert.ToInt32(Console.ReadLine());
@@ -55,6 +65,11 @@ namespace Labo06_Promedio
                                     if (percentage <= 0)
                                     {
                                         throw new NegativeInputException("dato ingresado no valido.");
+                                    }
+
+                                    if (percentage > totPercantage)
+                                    {
+                                        throw new MoreThanTenException("No se puede agregar mas.");
                                     }
 
                                     Console.WriteLine("De cuantas preguntas es el parcial ?");
@@ -84,6 +99,11 @@ namespace Labo06_Promedio
                                         throw new NegativeInputException("dato ingresado no valido.");
                                     }
 
+                                    if (percentage > totPercantage)
+                                    {
+                                        throw new MoreThanTenException("No se puede agregar mas.");
+                                    }
+
                                     Console.WriteLine("Tipo de laboratorio ?");
                                     type = Convert.ToString(Console.ReadLine());
 
@@ -104,6 +124,11 @@ namespace Labo06_Promedio
                                     if (percentage <= 0)
                                     {
                                         throw new NegativeInputException("dato ingresado no valido.");
+                                    }
+
+                                    if (percentage > totPercantage)
+                                    {
+                                        throw new MoreThanTenException("No se puede agregar mas.");
                                     }
 
                                     Console.WriteLine("fecha de entrega de la tarea ?" +
@@ -150,7 +175,9 @@ namespace Labo06_Promedio
                                     if (exams.Remove(exams.Find(s => s.Name1.Equals(deletePar))))
                                     {
                                         Console.WriteLine("Eliminado con exito.");
-                                    } Console.WriteLine("No se encontro elemento.");
+                                    }
+
+                                    Console.WriteLine("No se encontro elemento.");
 
                                 }
                                 else if (opc2 == 2)
@@ -159,8 +186,11 @@ namespace Labo06_Promedio
                                     deleteLab = Convert.ToString(Console.ReadLine());
 
                                     if (exams.Remove(exams.Find(s => s.Name1.Equals(deleteLab))))
-                                    { Console.WriteLine("Eliminado con exito.");
-                                    } Console.WriteLine("No se encontro elemento.");
+                                    {
+                                        Console.WriteLine("Eliminado con exito.");
+                                    }
+
+                                    Console.WriteLine("No se encontro elemento.");
                                 }
                                 else if (opc2 == 3)
                                 {
@@ -168,8 +198,11 @@ namespace Labo06_Promedio
                                     deleteHmwk = Convert.ToString(Console.ReadLine());
 
                                     if (exams.Remove(exams.Find(s => s.Name1.Equals(deleteHmwk))))
-                                    {Console.WriteLine("Eliminado con exito.");
-                                    }Console.WriteLine("No se encontro elemento.");
+                                    {
+                                        Console.WriteLine("Eliminado con exito.");
+                                    }
+
+                                    Console.WriteLine("No se encontro elemento.");
                                 }
                                 else
                                     Console.WriteLine("Opcion erronea! \n ");
@@ -193,6 +226,11 @@ namespace Labo06_Promedio
                                     Console.WriteLine("dato ncorrecto.");
                                     opc = 5;
                                 }
+                                catch (FormatException sd)
+                                {
+                                    Console.WriteLine("dato ncorrecto.");
+                                    opc = 5;
+                                }
 
                                 break;
                             default:
@@ -211,6 +249,10 @@ namespace Labo06_Promedio
                     catch (FormatException sc)
                     {
                         Console.WriteLine("dato erroneo !");
+                    }
+                    catch (MoreThanTenException sda)
+                    {
+                        Console.WriteLine("no se puede agregar mas.");
                     }
 
                 } while (opc != 4);
