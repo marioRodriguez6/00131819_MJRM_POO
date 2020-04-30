@@ -44,7 +44,7 @@ namespace Labo06_Promedio
                                 {
                                     Console.WriteLine("Nombre del parcial a añadir?");
                                     name = Convert.ToString(Console.ReadLine());
-                                    if (itsNumber(name))
+                                    if (ItsNumber(name))
                                     {
                                         throw new WrongInputException("dato erroneo, No digite numero!");
                                     }
@@ -71,7 +71,7 @@ namespace Labo06_Promedio
                                 {
                                     Console.WriteLine("Nombre del Laboratorio a añadir?");
                                     name = Convert.ToString(Console.ReadLine());
-                                    if (itsNumber(name))
+                                    if (ItsNumber(name))
                                     {
                                         throw new WrongInputException("dato erroneo, No digite numero!");
                                     }
@@ -79,7 +79,7 @@ namespace Labo06_Promedio
                                     Console.WriteLine("Cuanto es el porcentaje del Laboratorio ?");
                                     percentage = Convert.ToInt32(Console.ReadLine());
 
-                                    if (percentage <= 0)
+                                    if (percentage <= 0 || percentage > 100)
                                     {
                                         throw new NegativeInputException("dato ingresado no valido.");
                                     }
@@ -94,7 +94,7 @@ namespace Labo06_Promedio
                                 {
                                     Console.WriteLine("Nombre de la tarea a añadir?");
                                     name = Convert.ToString(Console.ReadLine());
-                                    if (itsNumber(name))
+                                    if (ItsNumber(name))
                                     {
                                         throw new WrongInputException("dato erroneo, No digite numero!");
                                     }
@@ -147,8 +147,10 @@ namespace Labo06_Promedio
                                     Console.WriteLine("Nombre del Parcial que quieres eliminar. ");
                                     deletePar = Console.ReadLine();
 
-                                    exams.Remove(exams.Find(s => s.Name1.Equals(deletePar)));
-
+                                    if (exams.Remove(exams.Find(s => s.Name1.Equals(deletePar))))
+                                    {
+                                        Console.WriteLine("Eliminado con exito.");
+                                    } Console.WriteLine("No se encontro elemento.");
 
                                 }
                                 else if (opc2 == 2)
@@ -156,27 +158,41 @@ namespace Labo06_Promedio
                                     Console.WriteLine("Nombre del Laboratorio que quieres eliminar. ");
                                     deleteLab = Convert.ToString(Console.ReadLine());
 
-                                    exams.Remove(exams.Find(s => s.Name1.Equals(deleteLab)));
-
+                                    if (exams.Remove(exams.Find(s => s.Name1.Equals(deleteLab))))
+                                    { Console.WriteLine("Eliminado con exito.");
+                                    } Console.WriteLine("No se encontro elemento.");
                                 }
                                 else if (opc2 == 3)
                                 {
                                     Console.WriteLine("Nombre de la tarea que quieres eliminar. ");
                                     deleteHmwk = Convert.ToString(Console.ReadLine());
 
-                                    exams.Remove(exams.Find(s => s.Name1.Equals(deleteHmwk)));
-
+                                    if (exams.Remove(exams.Find(s => s.Name1.Equals(deleteHmwk))))
+                                    {Console.WriteLine("Eliminado con exito.");
+                                    }Console.WriteLine("No se encontro elemento.");
                                 }
                                 else
                                     Console.WriteLine("Opcion erronea! \n ");
 
                                 break;
                             case 4:
+                                try
+                                {
+                                    Console.WriteLine(
+                                        " \n " + "su nota final es : " + CalcularNota.Calcular(exams) + " \n ");
 
-                                Console.WriteLine(
-                                    " \n " + "su nota final es : " + CalcularNota.Calcular(exams) + " \n ");
-
-                                Console.Write("saliendo del menu...");
+                                    Console.Write("saliendo del menu...");
+                                }
+                                catch (MoreThanTenException fd)
+                                {
+                                    Console.WriteLine("Se excede de 10.");
+                                    opc = 5;
+                                }
+                                catch (WrongInputException df)
+                                {
+                                    Console.WriteLine("dato ncorrecto.");
+                                    opc = 5;
+                                }
 
                                 break;
                             default:
@@ -196,7 +212,7 @@ namespace Labo06_Promedio
                     {
                         Console.WriteLine("dato erroneo !");
                     }
-                    
+
                 } while (opc != 4);
         }
 
@@ -216,7 +232,7 @@ namespace Labo06_Promedio
             return " 1. Eliminar Parcial. \n 2. Eliminar Laboratorio. \n 3. Eliminar Tarea. \n  ";
         }
 
-        static bool itsNumber(String num)
+        static bool ItsNumber(String num)
         {
             char[] chars = num.ToCharArray();
 

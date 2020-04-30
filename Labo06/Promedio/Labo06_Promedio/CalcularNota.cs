@@ -17,14 +17,22 @@ namespace Labo06_Promedio
                 {
                     Console.WriteLine("digite nota obtenida en Laboratorio {0}: ", ds.Name1);
                     notaLabo = Convert.ToDouble(Console.ReadLine());
+                    if (notaLabo > 10 || notaLabo < 0)
+                    {
+                        throw new MoreThanTenException("NO MAS DE 10 DE NOTA.");
+                    }
 
-                    // ReSharper disable once PossibleLossOfFraction
+                    
                     notaFinal += (double) (notaLabo * ds.Percentage1 )/100  ;
 
                 }else if (ds is Parcial)
                 {
                     Console.WriteLine("digite cuantas preguntas correctas obtuvo en el {0}: ",ds.Name1);
                     cantBuenas = Convert.ToDouble(Console.ReadLine());
+                    if (cantBuenas<0  || cantBuenas>ds.CantPreguntas )
+                    {
+                        throw new WrongInputException("dato incorrecto");
+                    }
                     
                         notaFinal += (double) ((cantBuenas / ds.CantPreguntas) * ds.Percentage1/10);
 
@@ -32,9 +40,12 @@ namespace Labo06_Promedio
                 {
                     Console.WriteLine("digite nota obtenida en Tarea {0} : ",ds.Name1);
                     notaTarea = Convert.ToDouble(Console.ReadLine());
+                    if (notaTarea > 10 || notaTarea<0)
+                    {
+                        throw new MoreThanTenException("Nota incorrecta.");
+                    }
 
-                    // ReSharper disable once PossibleLossOfFraction
-                     notaFinal += (double) (notaTarea * ds.Percentage1 )/100 ;
+                    notaFinal += (double) (notaTarea * ds.Percentage1 )/100 ;
 
                 }
             }
