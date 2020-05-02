@@ -143,6 +143,11 @@ namespace Labo06_Promedio
                                         Console.WriteLine("Fecha erronea, intente de nuevo.");
                                     }
 
+                                    if (userDate <= DateTime.Today)
+                                    {
+                                        throw new WrongTimeExcepcion("Fecha Erronea");
+                                    }
+
                                 }
                                 else
                                     Console.WriteLine("Opcion erronea! \n ");
@@ -254,6 +259,11 @@ namespace Labo06_Promedio
                     {
                         Console.WriteLine("no se puede agregar mas.");
                     }
+                    catch (WrongTimeExcepcion dde)
+                    {
+                        Console.WriteLine("Fecha Erronea.");
+
+                    }
 
                 } while (opc != 4);
         }
@@ -287,6 +297,5 @@ namespace Labo06_Promedio
             }
             return false;
         }
-
     }
 }
