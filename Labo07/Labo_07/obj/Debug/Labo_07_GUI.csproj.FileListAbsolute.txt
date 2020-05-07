@@ -1,0 +1,10 @@
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo07\Labo_07\bin\Debug\Labo_07_GUI.exe.config
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo07\Labo_07\bin\Debug\Labo_07_GUI.exe
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo07\Labo_07\bin\Debug\Labo_07_GUI.pdb
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo07\Labo_07\obj\Debug\Labo_07_GUI.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo07\Labo_07\obj\Debug\Labo_07_GUI.Properties.Resources.resources
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo07\Labo_07\obj\Debug\Labo_07_GUI.csproj.GenerateResource.cache
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo07\Labo_07\obj\Debug\Labo_07_GUI.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo07\Labo_07\obj\Debug\Labo_07_GUI.exe
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo07\Labo_07\obj\Debug\Labo_07_GUI.pdb
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo07\Labo_07\obj\Debug\Labo_07_GUI.Form1.resources
