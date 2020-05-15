@@ -1,0 +1,12 @@
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo08\Labo_08\bin\Debug\Labo_08_UCandTL.exe.config
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo08\Labo_08\bin\Debug\Labo_08_UCandTL.pdb
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo08\Labo_08\obj\Debug\Labo_08_UCandTL.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo08\Labo_08\obj\Debug\Labo_08_UCandTL.Properties.Resources.resources
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo08\Labo_08\obj\Debug\Labo_08_UCandTL.csproj.GenerateResource.cache
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo08\Labo_08\obj\Debug\Labo_08_UCandTL.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo08\Labo_08\obj\Debug\Labo_08_UCandTL.exe
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo08\Labo_08\obj\Debug\Labo_08_UCandTL.pdb
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo08\Labo_08\obj\Debug\Labo_08_UCandTL.Form1.resources
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo08\Labo_08\obj\Debug\Labo_08_UCandTL.Login.resources
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo08\Labo_08\obj\Debug\Labo_08_UCandTL.Register.resources
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo08\Labo_08\obj\Debug\Labo_08_UCandTL.csproj.CopyComplete
